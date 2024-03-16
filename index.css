@@ -34,12 +34,23 @@ header img {
     text-align: center;
 }
 
+header {
+    text-align: center;
+}
+
 h1 {
     color: #bb68d8;
 }
-h3 {
-    color: #ebc1fb;
+
+section {
+    text-align: center;
 }
+
+h3 {
+    color: #bb68d8;
+    ;
+}
+
 footer img {
     width: 30px;
     height: 30px;
@@ -53,14 +64,13 @@ footer {
 }
 
 footer a {
+    display: inline-block;
     margin: 20px;
     text-align: center;
 }
 
-footer p{
+footer p {
     margin-top: 2px;
-    
-    
 }
 
 .container {

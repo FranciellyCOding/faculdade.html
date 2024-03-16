@@ -8,14 +8,20 @@ body {
     margin: 0px;
     padding: 0px;
 }
-.container{
+
+.container {
     text-align: center;
 }
+
 .faixa1 {
-    background-color: #a000cc; /* Cor da faixa */
-    height: auto; /* Altura da faixa */
-    width: 100%; /* Largura total da página */
+    background-color: #a000cc;
+    /* Cor da faixa */
+    height: auto;
+    /* Altura da faixa */
+    width: 100%;
+    /* Largura total da página */
 }
+
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -57,22 +63,24 @@ main img {
 nav a:hover {
     color: #ecbffc;
 }
-footer img{
-    width: 25px;
-    height: 25px;
+
+footer img {
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     border: 2.5px solid #bb68d8;
 }
+
 footer {
-    background-color: #a000cc;
     display: flex;
     justify-content: center;
 }
-footer a{
+
+footer a {
     margin: 20px;
-    text-align: center;  
+    text-align: center;
 }
 
-footer p{
+footer p {
     margin-top: 2px;
 }
