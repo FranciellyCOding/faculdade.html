@@ -30,17 +30,13 @@ nav ul {
     padding: 16px;
 }
 
-a {
+nav a {
     color: white;
     text-decoration: none;
 }
 
 .title {
     color: #bb68d8;
-    text-align: center;
-}
-
-main {
     text-align: center;
 }
 
@@ -53,16 +49,21 @@ main ul {
     padding: 40px;
 }
 
-main img {
-    width: 200px;
-    height: 300px;
-    margin: 0 125px;
-    border-radius: 5%;
+.geradorsenha {
+    width: auto;
 }
 
-nav a:hover {
+
+
+
+a:hover {
     color: #ecbffc;
 }
+
+.linkpj{
+color: #e796fd;
+}
+
 
 footer img {
     width: 30px;
@@ -74,9 +75,11 @@ footer img {
 footer {
     display: flex;
     justify-content: center;
+    margin-top: 316px;
 }
 
 footer a {
+    color: white;
     margin: 20px;
     text-align: center;
 }
